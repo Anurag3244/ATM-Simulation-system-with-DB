@@ -21,3 +21,45 @@ This project is helpful for **students and beginners** learning Java, JDBC, and 
 * **JDBC API** – Database connectivity
 * **MySQL / H2 Database** – Data storage
 * **IntelliJ IDEA / Eclipse** – Recommended IDE
+## 🚀 Setup Instructions
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/Anurag3244/ATM-Simulation-system-with-DB.git
+cd ATM-Simulation-system-with-DB
+```
+
+### 2. Database Setup (MySQL)
+
+Run the following SQL queries before starting the project:
+
+```sql
+CREATE DATABASE atm_system;
+USE atm_system;
+
+-- Table for storing user accounts
+CREATE TABLE accounts (
+    account_no INT PRIMARY KEY AUTO_INCREMENT,
+    holder_name VARCHAR(100) NOT NULL,
+    pin VARCHAR(10) NOT NULL,
+    balance DECIMAL(10,2) DEFAULT 0.00
+);
+
+-- Insert sample accounts
+INSERT INTO accounts (holder_name, pin, balance) VALUES
+('Anurag Sharma', '1234', 10000.00),
+('Rohan Kumar', '5678', 7500.00),
+('Neha Verma', '4321', 5000.00);
+
+-- Table for transaction history
+CREATE TABLE transactions (
+    txn_id INT PRIMARY KEY AUTO_INCREMENT,
+    account_no INT,
+    txn_type VARCHAR(20),
+    amount DECIMAL(10,2),
+    txn_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (account_no) REFERENCES accounts(account_no)
+);
+```
+
