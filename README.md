@@ -85,13 +85,13 @@ String password = "your_password";
 
 (Add screenshots of login screen, balance enquiry, withdrawal, etc.)
 
-| Feature         | Screenshot                            |
-| --------------- | ------------------------------------- |
-| Login Screen    | ![Login](screenshots/login.png)       |
-| Balance Enquiry | ![Balance](screenshots/balance.png)   |
-| Cash Withdraw   | ![Withdraw](screenshots/withdraw.png) |
-| Deposit Money   | ![Deposit](screenshots/deposit.png)   |
-| Transactions    | ![History](screenshots/history.png)   |
+| Feature         | Screenshot                               |
+| --------------- | -------------------------------------    |
+| Login Screen    | ![Login](login.png)                      |
+| Register        | ![Register](Register.png)                |
+| Failed Withdraw | ![FailedWithdraw](FailedTransaction.png) |
+| Operations      | ![Operations](Options.png)               |
+| Statements      | ![Statement](MiniStatement.png)          |
 
 ---
 
