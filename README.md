@@ -63,3 +63,21 @@ CREATE TABLE transactions (
 );
 ```
 
+### 3. Update Database Config
+
+In your Java project, update DB credentials in the `DBConnection.java` file:
+
+```java
+String url = "jdbc:mysql://localhost:3306/atm_system";
+String user = "root";
+String password = "your_password";
+```
+
+### 4. Run the Project
+
+* Open project in IntelliJ/Eclipse
+* Run the `Main.java` file
+* Login using sample PINs (`1234`, `5678`, `4321`)
+
+---
+
