@@ -81,3 +81,35 @@ String password = "your_password";
 
 ---
 
+## 📸 Screenshots
+
+(Add screenshots of login screen, balance enquiry, withdrawal, etc.)
+
+| Feature         | Screenshot                            |
+| --------------- | ------------------------------------- |
+| Login Screen    | ![Login](screenshots/login.png)       |
+| Balance Enquiry | ![Balance](screenshots/balance.png)   |
+| Cash Withdraw   | ![Withdraw](screenshots/withdraw.png) |
+| Deposit Money   | ![Deposit](screenshots/deposit.png)   |
+| Transactions    | ![History](screenshots/history.png)   |
+
+---
+
+## 📝 Future Enhancements
+
+* Admin panel to manage users
+* ATM card simulation with account locking
+* Improved UI with JavaFX
+* Deploy on cloud with remote DB
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+---
+
+## 📄 License
+
+This project is **open-source** under the MIT License.
